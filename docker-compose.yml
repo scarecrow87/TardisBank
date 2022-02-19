@@ -33,7 +33,7 @@ services:
       TARDISBANK_SMTP_CREDENTIALS: "${TARDISBANK_SMTP_CREDENTIALS:-username@example.com:password}"
       ASPNETCORE_ENVIRONMENT: "development"
     expose:
-      - "80"
+      - "8066"
     depends_on:
       - db
     labels:
